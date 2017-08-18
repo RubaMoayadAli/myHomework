@@ -13,9 +13,12 @@ export class ProductComponent implements OnInit {
   p: Product;
 
   constructor() {
-    this.currentProducts.push(new Product('Guess',50000,0),
-    new Product('Fossil',150000,0),
-    new Product('Vivienne Westwood',70000,0),
+    this.currentProducts.push(new Product('Bread',150,0),
+    new Product('Tea',2000,0),
+    new Product('Milk',1000,0),
+    new Product('Egges',1200,0),
+    new Product('Potatoes',300,0),
+    new Product('Tomatoes',250,0),
   );
   }
 
@@ -50,7 +53,11 @@ export class ProductComponent implements OnInit {
   }
 
   calculate() {
+
       this.products.forEach(product => {this.bill += product.getBill(product.getQuantity())});
+
+
+
   }
     incProduct(p: Product){
       this.products.forEach(product => {
@@ -71,4 +78,5 @@ export class ProductComponent implements OnInit {
     }
     );
     }
+
 }
