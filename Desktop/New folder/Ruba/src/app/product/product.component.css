@@ -1,0 +1,43 @@
+.welcome {
+  font-size: 1.5em;
+
+}
+.list-items {
+  display: flex;
+
+  justify-content: center;
+
+  flex-flow: row wrap;
+  align-content: flex-end;
+}
+
+.list-item {
+  margin-left: 50px;
+  margin-right: 80px;
+  margin-top: 50px;
+}
+.namePro {
+  text-align: center;
+}
+.billCell {
+  margin-left: 0px;
+  text-align: left;
+  vertical-align: top;
+  width: 400px;
+}
+.productsCell {
+  margin-left: 0px;
+}
+.title {
+  color: darkcyan;
+  font-size: 2em;
+  text-align: center;
+  vertical-align: middle;
+}
+.Bill {
+  text-align: right;
+  font-size: 1.3em;
+}
+.leftA {
+  font-size: 1.2em;
+}
